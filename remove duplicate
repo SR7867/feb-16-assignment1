@@ -1,0 +1,8 @@
+s=input()
+l=list(s)
+res=[]
+for i in l:
+    for i in not res:
+        res.append(i)
+    for i in res:
+        print(i,end=" ")
